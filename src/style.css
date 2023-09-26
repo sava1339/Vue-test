@@ -1,0 +1,67 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #242424;
+  color: white;
+}
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  color: white;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+.bold p{
+  font-size: 20px;
+}
+.bold{
+  border-left: 3px solid white;
+  padding-left: 1em;
+  background-color: #1a1a1a;
+  padding-top: 0.8em;
+  padding-bottom: 0.1em;
+  margin: 2em;
+}
+.routes{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.routes p {
+  color: white;
+  text-decoration: none;
+  font-size: 26px;
+  text-align: center;
+}
+.router-list{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1em;
+  width: 80%;
+}
+.route{
+  color: white;
+  text-decoration: none;
+  font-size: 21px;
+}
+.counter{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1em;
+}
